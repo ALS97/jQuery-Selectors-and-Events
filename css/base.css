@@ -1,4 +1,4 @@
-/* *{
+*{
     box-sizing: border-box;
 }
 
@@ -15,14 +15,14 @@
     padding:auto;
     
   }
-#desc{
+/* #desc{
       overflow: hidden;
       overflow-wrap: break-word;
       width:250px;
       margin:1rem;
-  }
+  } */
 img{
     width:250px;
     height:300px;
     margin: 1rem;
-} */
+}
