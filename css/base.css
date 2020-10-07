@@ -1,28 +1,25 @@
 *{
     box-sizing: border-box;
+    font-family: 'noto-serif',serif;
+}
+section{
+    float:left;
+    padding:30px;
 }
 
-#photo-template {
-    max-width: 950px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column wrap;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 1rem;
-    padding:auto;
-    
-  }
-/* #desc{
-      overflow: hidden;
-      overflow-wrap: break-word;
-      width:250px;
-      margin:1rem;
-  } */
 img{
+
     width:250px;
     height:300px;
-    margin: 1rem;
+    margin: 0px;
+    
+}
+p{
+    width:300px;
+    margin:0px;
+    padding:0px;
+}
+footer{
+    clear: both;
+    margin-top: -5000px;
 }
