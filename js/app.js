@@ -16,6 +16,7 @@ $(document).ready(function(){
     .then(hrn =>{
         hrn.forEach((type) =>{
             new HornConst(type).render();
+        
           });
         keyword();
         dropdown();
@@ -55,4 +56,4 @@ function HornConst(Horn) {
     this.hornnum = Horn.hornnum;
     this.desc = Horn.description;
     storage.push(this);
-}
+};
