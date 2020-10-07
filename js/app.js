@@ -19,6 +19,7 @@ $(document).ready(function(){
           });
         keyword();
         dropdown();
+        $('.die').hide();
     });
 
 });
@@ -52,6 +53,6 @@ function HornConst(Horn) {
     this.image_url = Horn.image_url;
     this.keyword = Horn.keyword;
     this.hornnum = Horn.hornnum;
-    this.desc = Horn.desc;
+    this.desc = Horn.description;
     storage.push(this);
 }
